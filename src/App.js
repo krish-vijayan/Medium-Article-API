@@ -15,7 +15,7 @@ function App() {
     axios({
       method: "get",
       // url: "https://v1.nocodeapi.com/*******/medium/*******", //This was an API created by https://nocodeapi.com/ of TribalScale's
-      // // medium feed that was hosted locally. API data is copied into 'data.json'
+      // // medium feed. *API data is copied into 'data.json'
       url: "data.json",
       params: {},
     })
